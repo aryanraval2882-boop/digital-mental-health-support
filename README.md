@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
 
-## Project info
+# 🌿 CalmMind — A Stress-Relief App for Students
 
-**URL**: https://lovable.dev/projects/baedf48d-aca5-4792-81d5-f009704c0930
+**CalmMind** is a mobile-first, interactive stress-relief app designed specifically for students. It blends soothing visuals, modern UI principles, and evidence-based relaxation techniques to help users manage stress, anxiety, and focus better — anytime, anywhere.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎨 Design Vision
 
-**Use Lovable**
+* **Color Palette:** Soft, calming hues (blues, teals, warm neutrals)
+* **Motion Design:** Smooth breathing animations and transitions
+* **UI Style:** Clean, minimal, and student-friendly
+* **Typography:** Clear and readable, optimized for mobile
+* **Accessibility:** High contrast, large touch targets, and responsive design
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/baedf48d-aca5-4792-81d5-f009704c0930) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Core Features (v1.0)
 
-**Use your preferred IDE**
+* **Landing & Onboarding** — Gentle introduction to app purpose and features
+* **Technique Catalog** — Curated stress-relief methods:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+  * Breathing techniques
+  * Mindfulness practices
+  * Cognitive reframing exercises
+* **Interactive Breathing Exercise** — Animated visuals guide users through paced breathing cycles
+* **Technique Detail Pages** — Step-by-step guidance with soothing visuals and audio
+* **Local Progress Tracking** — Save completed sessions and streaks locally
+* **Responsive Design** — Works seamlessly across screen sizes and devices
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+ 
+## 💡 Contributing
 
-Follow these steps:
+Contributions, ideas, and feedback are welcome!
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* Fork the repository
+* Create a new branch (`feature/your-feature-name`)
+* Submit a pull request
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🧘‍♀️ Inspiration
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+CalmMind is built to help students breathe, reflect, and recharge — using design and technology to make mental wellness approachable and beautiful.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📄 License
 
-**Use GitHub Codespaces**
+This project is licensed under the [MIT License](LICENSE).
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/baedf48d-aca5-4792-81d5-f009704c0930) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+--- 
