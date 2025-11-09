@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Home, BookOpen, Activity } from "lucide-react";
+import { Home, BookOpen, Activity, TrendingUp } from "lucide-react";
 
 export function Navigation() {
   const location = useLocation();
@@ -37,6 +37,16 @@ export function Navigation() {
               <Link to="/techniques">
                 <BookOpen className="mr-2 h-4 w-4" />
                 Techniques
+              </Link>
+            </Button>
+            <Button
+              variant={isActive("/progress") ? "default" : "ghost"}
+              size="sm"
+              asChild
+            >
+              <Link to="/progress">
+                <TrendingUp className="mr-2 h-4 w-4" />
+                Progress
               </Link>
             </Button>
           </div>

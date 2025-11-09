@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { getTechniqueById } from "@/data/techniques";
+import { addPracticeSession } from "@/lib/progressUtils";
 import { ArrowLeft, CheckCircle2, Clock, TrendingUp } from "lucide-react";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
@@ -42,6 +43,7 @@ export default function TechniqueDetail() {
 
   const markAsCompleted = () => {
     localStorage.setItem(`completed-${technique.id}`, "true");
+    addPracticeSession(technique.id, technique.timeMinutes);
     setIsCompleted(true);
     toast.success("Great job! Technique marked as completed.", {
       description: "Your progress has been saved."
