@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { Navigation } from "@/components/Navigation";
 import { BreathingExercise } from "@/components/BreathingExercise";
+import { FeedbackForm } from "@/components/FeedbackForm";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -182,6 +183,9 @@ export default function TechniqueDetail() {
               </Button>
             </div>
           )}
+
+          {/* Feedback Form */}
+          <FeedbackForm techniqueName={technique.title} />
         </div>
       </main>
     </div>
