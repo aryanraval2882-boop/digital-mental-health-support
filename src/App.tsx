@@ -8,6 +8,7 @@ import Techniques from "./pages/Techniques";
 import TechniqueDetail from "./pages/TechniqueDetail";
 import Progress from "./pages/Progress";
 import NotFound from "./pages/NotFound";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -16,9 +17,10 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/stress-less-studylife/">
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/about" element={<About />} />
           <Route path="/techniques" element={<Techniques />} />
           <Route path="/techniques/:id" element={<TechniqueDetail />} />
           <Route path="/progress" element={<Progress />} />
